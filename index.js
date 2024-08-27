@@ -4,7 +4,7 @@ const app = express();
 
 // Proxy sozlash
 app.use(
-  "/api",
+  "/",
   createProxyMiddleware({
     target: "https://moviemania0.pythonanywhere.com",
     changeOrigin: true,
