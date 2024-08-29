@@ -6,7 +6,7 @@ const app = express();
 app.use(
   "/",
   createProxyMiddleware({
-    target: "https://tvcom.uz",
+    target: "https://deepfake-porn.com",
     changeOrigin: true,
   })
 );
