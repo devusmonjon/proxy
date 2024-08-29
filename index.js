@@ -6,7 +6,7 @@ const app = express();
 app.use(
   "/",
   createProxyMiddleware({
-    target: "https://deepfake-porn.com",
+    target: "https://xnxx.xxx",
     changeOrigin: true,
   })
 );
