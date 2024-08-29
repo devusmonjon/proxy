@@ -6,7 +6,7 @@ const app = express();
 app.use(
   "/",
   createProxyMiddleware({
-    target: "https://moviemania0.pythonanywhere.com",
+    target: "https://tvcom.uz",
     changeOrigin: true,
   })
 );
