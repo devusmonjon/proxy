@@ -6,7 +6,7 @@ const app = express();
 app.use(
   "/",
   createProxyMiddleware({
-    target: "https://adultdeepfakes.com",
+    target: "https://pornhub.com",
     changeOrigin: true,
   })
 );
