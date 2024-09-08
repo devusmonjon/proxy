@@ -6,7 +6,7 @@ const app = express();
 app.use(
   "/",
   createProxyMiddleware({
-    target: "https://pornhub.com",
+    target: "https://www.sammi.ac",
     changeOrigin: true,
   })
 );
