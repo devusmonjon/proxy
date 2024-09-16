@@ -6,7 +6,7 @@ const app = express();
 app.use(
   "/",
   createProxyMiddleware({
-    target: "https://www.redtube.com/",
+    target: "http://13.51.206.62:8000",
     changeOrigin: true,
   })
 );
