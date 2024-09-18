@@ -5,7 +5,7 @@ const cors = require("cors");
 const app = express();
 
 // CORS sozlash - faqat http://localhost:5500 uchun
-app.use(cors({ origin: "https://nt-react-09.vercel.app" }));
+app.use(cors({ origin: "*" }));
 
 // Proxy sozlash
 app.use(
