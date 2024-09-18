@@ -1,6 +1,11 @@
 const express = require("express");
 const { createProxyMiddleware } = require("http-proxy-middleware");
+const cors = require("cors");
+
 const app = express();
+
+// CORS sozlash - faqat http://localhost:5500 uchun
+app.use(cors({ origin: "http://localhost:5500" }));
 
 // Proxy sozlash
 app.use(
